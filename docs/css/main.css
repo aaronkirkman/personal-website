@@ -12,18 +12,16 @@ body {
 }
 
 .content {
-	/* margin: 1em 0em; */
 	margin: 1em;
 	padding: 1em;
 }
+
 .navigation {
-	height: 100%; /* Full-height: remove this if you want "auto" height */
+	height: 100%;
 	width: 160px; /* Set the width of the sidebar */
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
-	/* left: 0; */
-	/*background-color: #222; /* Black */
 	background-color: white;
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 20px;
@@ -42,7 +40,6 @@ body {
 	display: block;
 }
 
-
 .content {
 	margin: 0 0 0 160px; /* Left margin same as the width of the sidebar */
 	padding: 0px 10px;
@@ -58,10 +55,8 @@ body {
 
 h1 {
 	  border-bottom: 3px solid black;
-	  /* border-radius: 25px; */
 }
 
 h2 {
 	  border-bottom: 1px solid black;
-	  /* border-radius: 25px; */
 }
