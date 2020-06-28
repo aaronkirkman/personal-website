@@ -48,9 +48,8 @@ for root, dirs, files in os.walk(site_dir):
     for filename in files:
         if get_extension(filename) == ".md":
             markdown_file = os.path.join(root, filename)
-            print(markdown_file)
             html_file = f"{pathlib.Path(markdown_file).with_suffix('')}.html"
-            print(html_file)
+            print(f"{markdown_file} --> {html_file}")
 
             # Render Markdown to HTML
             with open(markdown_file, "r") as mf:
