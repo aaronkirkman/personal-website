@@ -48,6 +48,14 @@ body {
 	padding: 0px 10px;
 }
 
+.content a {
+	color: #4183c4
+}
+
+.content a, .content a:hover {
+	text-decoration: none;
+}
+
 h1 {
 	  border-bottom: 3px solid black;
 	  /* border-radius: 25px; */
