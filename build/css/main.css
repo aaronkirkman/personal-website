@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+	font-family: Open Sans, sans-serif;
 	/* background-color: powderblue; */
 	background-color: white;
 	margin: 1em;
@@ -59,4 +59,26 @@ h1 {
 
 h2 {
 	border-bottom: 1px solid black;
+}
+
+.news_sources a {
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 95%;
+	height: 100%;
+	font-size: 18px;
+}
+
+.news_sources table {
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.news_sources td {
+	height: 50px;
+	width: 50%;
+	border: 1px solid black;
 }

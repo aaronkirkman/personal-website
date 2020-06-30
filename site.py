@@ -53,7 +53,7 @@ for root, dirs, files in os.walk(site_dir):
 
             # Render Markdown to HTML
             with open(markdown_file, "r") as mf:
-                html = markdown2.markdown(mf.read(), extras=["metadata", "header-ids"])
+                html = markdown2.markdown(mf.read(), extras=["metadata", "header-ids", "markdown-in-html", "tables"])
                 html_output = template.render(title = html.metadata["Title"],
                                               content = html,
                                               last_updated = datetime.date.today().strftime("%Y-%m-%d"))
