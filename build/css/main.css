@@ -60,7 +60,6 @@ h1 {
 h2 {
 	border-bottom: 1px solid black;
 }
-
 .news_sources a {
 	padding: 5px;
 	justify-content: center;
@@ -69,16 +68,21 @@ h2 {
 	width: 95%;
 	height: 100%;
 	font-size: 18px;
+	background-color: #e2e2e2;
 }
 
 .news_sources table {
 	border-collapse: collapse;
 	text-align: center;
 	vertical-align: middle;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius: 20px;
 }
 
 .news_sources td {
 	height: 50px;
 	width: 50%;
-	border: 1px solid black;
+	margin: 5px;
+	padding: 5px;
 }
