@@ -16,7 +16,7 @@ body {
 	padding: 1em;
 }
 
-.navigation {
+nav {
 	height: 100%;
 	max-width: 120px; /* Set the width of the sidebar */
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -32,7 +32,7 @@ body {
 	border-bottom: 1px solid hsla(0,0%,100%,.1);
 }
 
-.navigation a {
+nav a {
 	padding: 6px 8px 6px 16px;
 	text-decoration: none;
 	font-size: 18px;
