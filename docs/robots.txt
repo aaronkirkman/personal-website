@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://aaronkirkman.net/sitemap.xml
