@@ -1,4 +1,5 @@
 Title: Privacy: Aaron Kirkman
+IncludeInSitemap: 1
 
 
 # Web analytics
