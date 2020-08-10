@@ -3,4 +3,4 @@ IncludeInSitemap: 1
 
 # About
 
-Economist turned management consultant, specializing in healthcare.
+Economist turned management consultant, specializing in healthcare and data analytics.
